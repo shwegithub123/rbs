@@ -27,7 +27,7 @@ class Details extends Component {
         this.props.history.push('/signup')
     }
     render(){
-        console.log(this.state);
+    
         return(
             <div className="sstop">
                     <input type="button" onClick={this.back} value="Back" />
